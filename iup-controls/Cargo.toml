@@ -1,0 +1,17 @@
+[package]
+name = "iup_controls"
+version = "0.1.0"
+authors = ["Felix Kaaman <tmtu@tmtu.ee>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "*"
+iup-sys = { path = "../sys/iup-sys" }
+
+[dependencies.iup]
+path = "../iup"
+
+[dependencies.iup-controls-sys]
+path = "../sys/iup-controls-sys"

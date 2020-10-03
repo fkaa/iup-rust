@@ -1,0 +1,358 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/35c89c8f/
+IupCells	src\\lib.rs	/^    pub fn IupCells() -> *mut Ihandle;$/;"	f
+IupControlsOpen	src\\lib.rs	/^    pub fn IupControlsOpen() -> c_int;$/;"	f
+IupMatrix	src\\lib.rs	/^    pub fn IupMatrix(action: *const c_char) -> *mut Ihandle;$/;"	f
+IupMatrixEx	src\\lib.rs	/^    pub fn IupMatrixEx() -> *mut Ihandle;$/;"	f
+IupMatrixList	src\\lib.rs	/^    pub fn IupMatrixList() -> *mut Ihandle;$/;"	f
+cdBitmap	src\\lib.rs	/^pub struct cdBitmap {$/;"	s
+cdBitmap	src\\test.rs	/^pub struct cdBitmap {$/;"	s
+cdBitmapGetData	src\\lib.rs	/^    pub fn cdBitmapGetData(bitmap: *mut cdBitmap, dataptr: c_int) -> *mut c_uchar;$/;"	f
+cdBitmapGetData	src\\test.rs	/^    pub fn cdBitmapGetData(bitmap: *mut cdBitmap, dataptr: c_int) -> *mut c_uchar;$/;"	f
+cdBitmapRGB2Map	src\\lib.rs	/^    pub fn cdBitmapRGB2Map(bitmap_rgb: *mut cdBitmap, bitmap_map: *mut cdBitmap);$/;"	f
+cdBitmapRGB2Map	src\\test.rs	/^    pub fn cdBitmapRGB2Map(bitmap_rgb: *mut cdBitmap, bitmap_map: *mut cdBitmap);$/;"	f
+cdBitmapSetRect	src\\lib.rs	/^    pub fn cdBitmapSetRect($/;"	f
+cdBitmapSetRect	src\\test.rs	/^    pub fn cdBitmapSetRect($/;"	f
+cdCallback	src\\lib.rs	/^pub type cdCallback = Option<unsafe extern "C" fn(canvas: *mut cdCanvas, ...) -> c_int>;$/;"	t
+cdCallback	src\\test.rs	/^pub type cdCallback = Option<unsafe extern "C" fn(canvas: *mut cdCanvas, ...) -> c_int>;$/;"	t
+cdCanvas	src\\lib.rs	/^pub enum cdCanvas {}$/;"	g
+cdCanvas	src\\test.rs	/^pub enum cdCanvas {}$/;"	g
+cdCanvasActivate	src\\lib.rs	/^    pub fn cdCanvasActivate(canvas: *mut cdCanvas) -> c_int;$/;"	f
+cdCanvasActivate	src\\test.rs	/^    pub fn cdCanvasActivate(canvas: *mut cdCanvas) -> c_int;$/;"	f
+cdCanvasArc	src\\lib.rs	/^    pub fn cdCanvasArc($/;"	f
+cdCanvasArc	src\\test.rs	/^    pub fn cdCanvasArc($/;"	f
+cdCanvasBackOpacity	src\\lib.rs	/^    pub fn cdCanvasBackOpacity(canvas: *mut cdCanvas, opacity: c_int) -> c_int;$/;"	f
+cdCanvasBackOpacity	src\\test.rs	/^    pub fn cdCanvasBackOpacity(canvas: *mut cdCanvas, opacity: c_int) -> c_int;$/;"	f
+cdCanvasBackground	src\\lib.rs	/^    pub fn cdCanvasBackground(canvas: *mut cdCanvas, color: c_long) -> c_long;$/;"	f
+cdCanvasBackground	src\\test.rs	/^    pub fn cdCanvasBackground(canvas: *mut cdCanvas, color: c_long) -> c_long;$/;"	f
+cdCanvasBegin	src\\lib.rs	/^    pub fn cdCanvasBegin(canvas: *mut cdCanvas, mode: c_int);$/;"	f
+cdCanvasBegin	src\\test.rs	/^    pub fn cdCanvasBegin(canvas: *mut cdCanvas, mode: c_int);$/;"	f
+cdCanvasBox	src\\lib.rs	/^    pub fn cdCanvasBox(canvas: *mut cdCanvas, xmin: c_int, xmax: c_int, ymin: c_int, ymax: c_int/;"	f
+cdCanvasBox	src\\test.rs	/^    pub fn cdCanvasBox(canvas: *mut cdCanvas, xmin: c_int, xmax: c_int, ymin: c_int, ymax: c_int/;"	f
+cdCanvasChord	src\\lib.rs	/^    pub fn cdCanvasChord($/;"	f
+cdCanvasChord	src\\test.rs	/^    pub fn cdCanvasChord($/;"	f
+cdCanvasClear	src\\lib.rs	/^    pub fn cdCanvasClear(canvas: *mut cdCanvas);$/;"	f
+cdCanvasClear	src\\test.rs	/^    pub fn cdCanvasClear(canvas: *mut cdCanvas);$/;"	f
+cdCanvasClip	src\\lib.rs	/^    pub fn cdCanvasClip(canvas: *mut cdCanvas, mode: c_int) -> c_int;$/;"	f
+cdCanvasClip	src\\test.rs	/^    pub fn cdCanvasClip(canvas: *mut cdCanvas, mode: c_int) -> c_int;$/;"	f
+cdCanvasClipArea	src\\lib.rs	/^    pub fn cdCanvasClipArea($/;"	f
+cdCanvasClipArea	src\\test.rs	/^    pub fn cdCanvasClipArea($/;"	f
+cdCanvasCreateImage	src\\lib.rs	/^    pub fn cdCanvasCreateImage(canvas: *mut cdCanvas, w: c_int, h: c_int) -> *mut cdImage;$/;"	f
+cdCanvasCreateImage	src\\test.rs	/^    pub fn cdCanvasCreateImage(canvas: *mut cdCanvas, w: c_int, h: c_int) -> *mut cdImage;$/;"	f
+cdCanvasDeactivate	src\\lib.rs	/^    pub fn cdCanvasDeactivate(canvas: *mut cdCanvas);$/;"	f
+cdCanvasDeactivate	src\\test.rs	/^    pub fn cdCanvasDeactivate(canvas: *mut cdCanvas);$/;"	f
+cdCanvasEnd	src\\lib.rs	/^    pub fn cdCanvasEnd(canvas: *mut cdCanvas);$/;"	f
+cdCanvasEnd	src\\test.rs	/^    pub fn cdCanvasEnd(canvas: *mut cdCanvas);$/;"	f
+cdCanvasFillMode	src\\lib.rs	/^    pub fn cdCanvasFillMode(canvas: *mut cdCanvas, mode: c_int) -> c_int;$/;"	f
+cdCanvasFillMode	src\\test.rs	/^    pub fn cdCanvasFillMode(canvas: *mut cdCanvas, mode: c_int) -> c_int;$/;"	f
+cdCanvasFlush	src\\lib.rs	/^    pub fn cdCanvasFlush(canvas: *mut cdCanvas);$/;"	f
+cdCanvasFlush	src\\test.rs	/^    pub fn cdCanvasFlush(canvas: *mut cdCanvas);$/;"	f
+cdCanvasFont	src\\lib.rs	/^    pub fn cdCanvasFont($/;"	f
+cdCanvasFont	src\\test.rs	/^    pub fn cdCanvasFont($/;"	f
+cdCanvasForeground	src\\lib.rs	/^    pub fn cdCanvasForeground(canvas: *mut cdCanvas, color: c_long) -> c_long;$/;"	f
+cdCanvasForeground	src\\test.rs	/^    pub fn cdCanvasForeground(canvas: *mut cdCanvas, color: c_long) -> c_long;$/;"	f
+cdCanvasGetAttribute	src\\lib.rs	/^    pub fn cdCanvasGetAttribute(canvas: *mut cdCanvas, name: *const c_char) -> *mut c_char;$/;"	f
+cdCanvasGetAttribute	src\\test.rs	/^    pub fn cdCanvasGetAttribute(canvas: *mut cdCanvas, name: *const c_char) -> *mut c_char;$/;"	f
+cdCanvasGetBitmap	src\\lib.rs	/^    pub fn cdCanvasGetBitmap(canvas: *mut cdCanvas, bitmap: *mut cdBitmap, x: c_int, y: c_int);$/;"	f
+cdCanvasGetBitmap	src\\test.rs	/^    pub fn cdCanvasGetBitmap(canvas: *mut cdCanvas, bitmap: *mut cdBitmap, x: c_int, y: c_int);$/;"	f
+cdCanvasGetClipArea	src\\lib.rs	/^    pub fn cdCanvasGetClipArea($/;"	f
+cdCanvasGetClipArea	src\\test.rs	/^    pub fn cdCanvasGetClipArea($/;"	f
+cdCanvasGetColorPlanes	src\\lib.rs	/^    pub fn cdCanvasGetColorPlanes(canvas: *mut cdCanvas) -> c_int;$/;"	f
+cdCanvasGetColorPlanes	src\\test.rs	/^    pub fn cdCanvasGetColorPlanes(canvas: *mut cdCanvas) -> c_int;$/;"	f
+cdCanvasGetContext	src\\lib.rs	/^    pub fn cdCanvasGetContext(canvas: *mut cdCanvas) -> *mut cdContext;$/;"	f
+cdCanvasGetContext	src\\test.rs	/^    pub fn cdCanvasGetContext(canvas: *mut cdCanvas) -> *mut cdContext;$/;"	f
+cdCanvasGetFont	src\\lib.rs	/^    pub fn cdCanvasGetFont($/;"	f
+cdCanvasGetFont	src\\test.rs	/^    pub fn cdCanvasGetFont($/;"	f
+cdCanvasGetFontDim	src\\lib.rs	/^    pub fn cdCanvasGetFontDim($/;"	f
+cdCanvasGetFontDim	src\\test.rs	/^    pub fn cdCanvasGetFontDim($/;"	f
+cdCanvasGetImage	src\\lib.rs	/^    pub fn cdCanvasGetImage(canvas: *mut cdCanvas, image: *mut cdImage, x: c_int, y: c_int);$/;"	f
+cdCanvasGetImage	src\\test.rs	/^    pub fn cdCanvasGetImage(canvas: *mut cdCanvas, image: *mut cdImage, x: c_int, y: c_int);$/;"	f
+cdCanvasGetImageRGB	src\\lib.rs	/^    pub fn cdCanvasGetImageRGB($/;"	f
+cdCanvasGetImageRGB	src\\test.rs	/^    pub fn cdCanvasGetImageRGB($/;"	f
+cdCanvasGetOrigin	src\\lib.rs	/^    pub fn cdCanvasGetOrigin(canvas: *mut cdCanvas, x: *mut c_int, y: *mut c_int);$/;"	f
+cdCanvasGetOrigin	src\\test.rs	/^    pub fn cdCanvasGetOrigin(canvas: *mut cdCanvas, x: *mut c_int, y: *mut c_int);$/;"	f
+cdCanvasGetPattern	src\\lib.rs	/^    pub fn cdCanvasGetPattern(canvas: *mut cdCanvas, n: *mut c_int, m: *mut c_int) -> *mut c_lon/;"	f
+cdCanvasGetPattern	src\\test.rs	/^    pub fn cdCanvasGetPattern(canvas: *mut cdCanvas, n: *mut c_int, m: *mut c_int) -> *mut c_lon/;"	f
+cdCanvasGetRegionBox	src\\lib.rs	/^    pub fn cdCanvasGetRegionBox($/;"	f
+cdCanvasGetRegionBox	src\\test.rs	/^    pub fn cdCanvasGetRegionBox($/;"	f
+cdCanvasGetSize	src\\lib.rs	/^    pub fn cdCanvasGetSize($/;"	f
+cdCanvasGetSize	src\\test.rs	/^    pub fn cdCanvasGetSize($/;"	f
+cdCanvasGetStipple	src\\lib.rs	/^    pub fn cdCanvasGetStipple(canvas: *mut cdCanvas, n: *mut c_int, m: *mut c_int) -> *mut c_uch/;"	f
+cdCanvasGetStipple	src\\test.rs	/^    pub fn cdCanvasGetStipple(canvas: *mut cdCanvas, n: *mut c_int, m: *mut c_int) -> *mut c_uch/;"	f
+cdCanvasGetTextBounds	src\\lib.rs	/^    pub fn cdCanvasGetTextBounds($/;"	f
+cdCanvasGetTextBounds	src\\test.rs	/^    pub fn cdCanvasGetTextBounds($/;"	f
+cdCanvasGetTextBox	src\\lib.rs	/^    pub fn cdCanvasGetTextBox($/;"	f
+cdCanvasGetTextBox	src\\test.rs	/^    pub fn cdCanvasGetTextBox($/;"	f
+cdCanvasGetTextSize	src\\lib.rs	/^    pub fn cdCanvasGetTextSize($/;"	f
+cdCanvasGetTextSize	src\\test.rs	/^    pub fn cdCanvasGetTextSize($/;"	f
+cdCanvasGetTransform	src\\lib.rs	/^    pub fn cdCanvasGetTransform(canvas: *mut cdCanvas) -> *mut f64;$/;"	f
+cdCanvasGetTransform	src\\test.rs	/^    pub fn cdCanvasGetTransform(canvas: *mut cdCanvas) -> *mut f64;$/;"	f
+cdCanvasGetVectorFontSize	src\\lib.rs	/^    pub fn cdCanvasGetVectorFontSize(canvas: *mut cdCanvas, size_x: *mut f64, size_y: *mut f64);$/;"	f
+cdCanvasGetVectorFontSize	src\\test.rs	/^    pub fn cdCanvasGetVectorFontSize(canvas: *mut cdCanvas, size_x: *mut f64, size_y: *mut f64);$/;"	f
+cdCanvasGetVectorTextBounds	src\\lib.rs	/^    pub fn cdCanvasGetVectorTextBounds($/;"	f
+cdCanvasGetVectorTextBounds	src\\test.rs	/^    pub fn cdCanvasGetVectorTextBounds($/;"	f
+cdCanvasGetVectorTextBox	src\\lib.rs	/^    pub fn cdCanvasGetVectorTextBox($/;"	f
+cdCanvasGetVectorTextBox	src\\test.rs	/^    pub fn cdCanvasGetVectorTextBox($/;"	f
+cdCanvasGetVectorTextSize	src\\lib.rs	/^    pub fn cdCanvasGetVectorTextSize($/;"	f
+cdCanvasGetVectorTextSize	src\\test.rs	/^    pub fn cdCanvasGetVectorTextSize($/;"	f
+cdCanvasHatch	src\\lib.rs	/^    pub fn cdCanvasHatch(canvas: *mut cdCanvas, style: c_int) -> c_int;$/;"	f
+cdCanvasHatch	src\\test.rs	/^    pub fn cdCanvasHatch(canvas: *mut cdCanvas, style: c_int) -> c_int;$/;"	f
+cdCanvasInteriorStyle	src\\lib.rs	/^    pub fn cdCanvasInteriorStyle(canvas: *mut cdCanvas, style: c_int) -> c_int;$/;"	f
+cdCanvasInteriorStyle	src\\test.rs	/^    pub fn cdCanvasInteriorStyle(canvas: *mut cdCanvas, style: c_int) -> c_int;$/;"	f
+cdCanvasInvertYAxis	src\\lib.rs	/^    pub fn cdCanvasInvertYAxis(canvas: *mut cdCanvas, y: c_int) -> c_int;$/;"	f
+cdCanvasInvertYAxis	src\\test.rs	/^    pub fn cdCanvasInvertYAxis(canvas: *mut cdCanvas, y: c_int) -> c_int;$/;"	f
+cdCanvasIsPointInRegion	src\\lib.rs	/^    pub fn cdCanvasIsPointInRegion(canvas: *mut cdCanvas, x: c_int, y: c_int) -> c_int;$/;"	f
+cdCanvasIsPointInRegion	src\\test.rs	/^    pub fn cdCanvasIsPointInRegion(canvas: *mut cdCanvas, x: c_int, y: c_int) -> c_int;$/;"	f
+cdCanvasLine	src\\lib.rs	/^    pub fn cdCanvasLine(canvas: *mut cdCanvas, x1: c_int, y1: c_int, x2: c_int, y2: c_int);$/;"	f
+cdCanvasLine	src\\test.rs	/^    pub fn cdCanvasLine(canvas: *mut cdCanvas, x1: c_int, y1: c_int, x2: c_int, y2: c_int);$/;"	f
+cdCanvasLineCap	src\\lib.rs	/^    pub fn cdCanvasLineCap(canvas: *mut cdCanvas, cap: c_int) -> c_int;$/;"	f
+cdCanvasLineCap	src\\test.rs	/^    pub fn cdCanvasLineCap(canvas: *mut cdCanvas, cap: c_int) -> c_int;$/;"	f
+cdCanvasLineJoin	src\\lib.rs	/^    pub fn cdCanvasLineJoin(canvas: *mut cdCanvas, join: c_int) -> c_int;$/;"	f
+cdCanvasLineJoin	src\\test.rs	/^    pub fn cdCanvasLineJoin(canvas: *mut cdCanvas, join: c_int) -> c_int;$/;"	f
+cdCanvasLineStyle	src\\lib.rs	/^    pub fn cdCanvasLineStyle(canvas: *mut cdCanvas, style: c_int) -> c_int;$/;"	f
+cdCanvasLineStyle	src\\test.rs	/^    pub fn cdCanvasLineStyle(canvas: *mut cdCanvas, style: c_int) -> c_int;$/;"	f
+cdCanvasLineStyleDashes	src\\lib.rs	/^    pub fn cdCanvasLineStyleDashes(canvas: *mut cdCanvas, dashes: *const c_int, count: c_int);$/;"	f
+cdCanvasLineStyleDashes	src\\test.rs	/^    pub fn cdCanvasLineStyleDashes(canvas: *mut cdCanvas, dashes: *const c_int, count: c_int);$/;"	f
+cdCanvasLineWidth	src\\lib.rs	/^    pub fn cdCanvasLineWidth(canvas: *mut cdCanvas, width: c_int) -> c_int;$/;"	f
+cdCanvasLineWidth	src\\test.rs	/^    pub fn cdCanvasLineWidth(canvas: *mut cdCanvas, width: c_int) -> c_int;$/;"	f
+cdCanvasMM2Pixel	src\\lib.rs	/^    pub fn cdCanvasMM2Pixel($/;"	f
+cdCanvasMM2Pixel	src\\test.rs	/^    pub fn cdCanvasMM2Pixel($/;"	f
+cdCanvasMark	src\\lib.rs	/^    pub fn cdCanvasMark(canvas: *mut cdCanvas, x: c_int, y: c_int);$/;"	f
+cdCanvasMark	src\\test.rs	/^    pub fn cdCanvasMark(canvas: *mut cdCanvas, x: c_int, y: c_int);$/;"	f
+cdCanvasMarkSize	src\\lib.rs	/^    pub fn cdCanvasMarkSize(canvas: *mut cdCanvas, size: c_int) -> c_int;$/;"	f
+cdCanvasMarkSize	src\\test.rs	/^    pub fn cdCanvasMarkSize(canvas: *mut cdCanvas, size: c_int) -> c_int;$/;"	f
+cdCanvasMarkType	src\\lib.rs	/^    pub fn cdCanvasMarkType(canvas: *mut cdCanvas, type_: c_int) -> c_int;$/;"	f
+cdCanvasMarkType	src\\test.rs	/^    pub fn cdCanvasMarkType(canvas: *mut cdCanvas, type_: c_int) -> c_int;$/;"	f
+cdCanvasMultiLineVectorText	src\\lib.rs	/^    pub fn cdCanvasMultiLineVectorText(canvas: *mut cdCanvas, x: c_int, y: c_int, s: *const c_ch/;"	f
+cdCanvasMultiLineVectorText	src\\test.rs	/^    pub fn cdCanvasMultiLineVectorText(canvas: *mut cdCanvas, x: c_int, y: c_int, s: *const c_ch/;"	f
+cdCanvasNativeFont	src\\lib.rs	/^    pub fn cdCanvasNativeFont(canvas: *mut cdCanvas, font: *const c_char) -> *mut c_char;$/;"	f
+cdCanvasNativeFont	src\\test.rs	/^    pub fn cdCanvasNativeFont(canvas: *mut cdCanvas, font: *const c_char) -> *mut c_char;$/;"	f
+cdCanvasOffsetRegion	src\\lib.rs	/^    pub fn cdCanvasOffsetRegion(canvas: *mut cdCanvas, x: c_int, y: c_int);$/;"	f
+cdCanvasOffsetRegion	src\\test.rs	/^    pub fn cdCanvasOffsetRegion(canvas: *mut cdCanvas, x: c_int, y: c_int);$/;"	f
+cdCanvasOrigin	src\\lib.rs	/^    pub fn cdCanvasOrigin(canvas: *mut cdCanvas, x: c_int, y: c_int);$/;"	f
+cdCanvasOrigin	src\\test.rs	/^    pub fn cdCanvasOrigin(canvas: *mut cdCanvas, x: c_int, y: c_int);$/;"	f
+cdCanvasPalette	src\\lib.rs	/^    pub fn cdCanvasPalette(canvas: *mut cdCanvas, n: c_int, palette: *const c_long, mode: c_int)/;"	f
+cdCanvasPalette	src\\test.rs	/^    pub fn cdCanvasPalette(canvas: *mut cdCanvas, n: c_int, palette: *const c_long, mode: c_int)/;"	f
+cdCanvasPathSet	src\\lib.rs	/^    pub fn cdCanvasPathSet(canvas: *mut cdCanvas, action: c_int);$/;"	f
+cdCanvasPathSet	src\\test.rs	/^    pub fn cdCanvasPathSet(canvas: *mut cdCanvas, action: c_int);$/;"	f
+cdCanvasPattern	src\\lib.rs	/^    pub fn cdCanvasPattern(canvas: *mut cdCanvas, w: c_int, h: c_int, pattern: *const c_long);$/;"	f
+cdCanvasPattern	src\\test.rs	/^    pub fn cdCanvasPattern(canvas: *mut cdCanvas, w: c_int, h: c_int, pattern: *const c_long);$/;"	f
+cdCanvasPixel	src\\lib.rs	/^    pub fn cdCanvasPixel(canvas: *mut cdCanvas, x: c_int, y: c_int, color: c_long);$/;"	f
+cdCanvasPixel	src\\test.rs	/^    pub fn cdCanvasPixel(canvas: *mut cdCanvas, x: c_int, y: c_int, color: c_long);$/;"	f
+cdCanvasPixel2MM	src\\lib.rs	/^    pub fn cdCanvasPixel2MM($/;"	f
+cdCanvasPixel2MM	src\\test.rs	/^    pub fn cdCanvasPixel2MM($/;"	f
+cdCanvasPlay	src\\lib.rs	/^    pub fn cdCanvasPlay($/;"	f
+cdCanvasPlay	src\\test.rs	/^    pub fn cdCanvasPlay($/;"	f
+cdCanvasPutBitmap	src\\lib.rs	/^    pub fn cdCanvasPutBitmap($/;"	f
+cdCanvasPutBitmap	src\\test.rs	/^    pub fn cdCanvasPutBitmap($/;"	f
+cdCanvasPutImageRect	src\\lib.rs	/^    pub fn cdCanvasPutImageRect($/;"	f
+cdCanvasPutImageRect	src\\test.rs	/^    pub fn cdCanvasPutImageRect($/;"	f
+cdCanvasPutImageRectMap	src\\lib.rs	/^    pub fn cdCanvasPutImageRectMap($/;"	f
+cdCanvasPutImageRectMap	src\\test.rs	/^    pub fn cdCanvasPutImageRectMap($/;"	f
+cdCanvasPutImageRectRGB	src\\lib.rs	/^    pub fn cdCanvasPutImageRectRGB($/;"	f
+cdCanvasPutImageRectRGB	src\\test.rs	/^    pub fn cdCanvasPutImageRectRGB($/;"	f
+cdCanvasPutImageRectRGBA	src\\lib.rs	/^    pub fn cdCanvasPutImageRectRGBA($/;"	f
+cdCanvasPutImageRectRGBA	src\\test.rs	/^    pub fn cdCanvasPutImageRectRGBA($/;"	f
+cdCanvasRect	src\\lib.rs	/^    pub fn cdCanvasRect(canvas: *mut cdCanvas, xmin: c_int, xmax: c_int, ymin: c_int, ymax: c_in/;"	f
+cdCanvasRect	src\\test.rs	/^    pub fn cdCanvasRect(canvas: *mut cdCanvas, xmin: c_int, xmax: c_int, ymin: c_int, ymax: c_in/;"	f
+cdCanvasRegionCombineMode	src\\lib.rs	/^    pub fn cdCanvasRegionCombineMode(canvas: *mut cdCanvas, mode: c_int) -> c_int;$/;"	f
+cdCanvasRegionCombineMode	src\\test.rs	/^    pub fn cdCanvasRegionCombineMode(canvas: *mut cdCanvas, mode: c_int) -> c_int;$/;"	f
+cdCanvasRestoreState	src\\lib.rs	/^    pub fn cdCanvasRestoreState(canvas: *mut cdCanvas, state: *mut cdState);$/;"	f
+cdCanvasRestoreState	src\\test.rs	/^    pub fn cdCanvasRestoreState(canvas: *mut cdCanvas, state: *mut cdState);$/;"	f
+cdCanvasSaveState	src\\lib.rs	/^    pub fn cdCanvasSaveState(canvas: *mut cdCanvas) -> *mut cdState;$/;"	f
+cdCanvasSaveState	src\\test.rs	/^    pub fn cdCanvasSaveState(canvas: *mut cdCanvas) -> *mut cdState;$/;"	f
+cdCanvasScrollArea	src\\lib.rs	/^    pub fn cdCanvasScrollArea($/;"	f
+cdCanvasScrollArea	src\\test.rs	/^    pub fn cdCanvasScrollArea($/;"	f
+cdCanvasSector	src\\lib.rs	/^    pub fn cdCanvasSector($/;"	f
+cdCanvasSector	src\\test.rs	/^    pub fn cdCanvasSector($/;"	f
+cdCanvasSetAttribute	src\\lib.rs	/^    pub fn cdCanvasSetAttribute(canvas: *mut cdCanvas, name: *const c_char, data: *mut c_char);$/;"	f
+cdCanvasSetAttribute	src\\test.rs	/^    pub fn cdCanvasSetAttribute(canvas: *mut cdCanvas, name: *const c_char, data: *mut c_char);$/;"	f
+cdCanvasSetBackground	src\\lib.rs	/^    pub fn cdCanvasSetBackground(canvas: *mut cdCanvas, color: c_long);$/;"	f
+cdCanvasSetBackground	src\\test.rs	/^    pub fn cdCanvasSetBackground(canvas: *mut cdCanvas, color: c_long);$/;"	f
+cdCanvasSetForeground	src\\lib.rs	/^    pub fn cdCanvasSetForeground(canvas: *mut cdCanvas, color: c_long);$/;"	f
+cdCanvasSetForeground	src\\test.rs	/^    pub fn cdCanvasSetForeground(canvas: *mut cdCanvas, color: c_long);$/;"	f
+cdCanvasSetfAttribute	src\\lib.rs	/^    pub fn cdCanvasSetfAttribute($/;"	f
+cdCanvasSetfAttribute	src\\test.rs	/^    pub fn cdCanvasSetfAttribute($/;"	f
+cdCanvasSimulate	src\\lib.rs	/^    pub fn cdCanvasSimulate(canvas: *mut cdCanvas, mode: c_int) -> c_int;$/;"	f
+cdCanvasSimulate	src\\test.rs	/^    pub fn cdCanvasSimulate(canvas: *mut cdCanvas, mode: c_int) -> c_int;$/;"	f
+cdCanvasStipple	src\\lib.rs	/^    pub fn cdCanvasStipple(canvas: *mut cdCanvas, w: c_int, h: c_int, stipple: *const c_uchar);$/;"	f
+cdCanvasStipple	src\\test.rs	/^    pub fn cdCanvasStipple(canvas: *mut cdCanvas, w: c_int, h: c_int, stipple: *const c_uchar);$/;"	f
+cdCanvasText	src\\lib.rs	/^    pub fn cdCanvasText(canvas: *mut cdCanvas, x: c_int, y: c_int, s: *const c_char);$/;"	f
+cdCanvasText	src\\test.rs	/^    pub fn cdCanvasText(canvas: *mut cdCanvas, x: c_int, y: c_int, s: *const c_char);$/;"	f
+cdCanvasTextAlignment	src\\lib.rs	/^    pub fn cdCanvasTextAlignment(canvas: *mut cdCanvas, alignment: c_int) -> c_int;$/;"	f
+cdCanvasTextAlignment	src\\test.rs	/^    pub fn cdCanvasTextAlignment(canvas: *mut cdCanvas, alignment: c_int) -> c_int;$/;"	f
+cdCanvasTextOrientation	src\\lib.rs	/^    pub fn cdCanvasTextOrientation(canvas: *mut cdCanvas, angle: f64) -> f64;$/;"	f
+cdCanvasTextOrientation	src\\test.rs	/^    pub fn cdCanvasTextOrientation(canvas: *mut cdCanvas, angle: f64) -> f64;$/;"	f
+cdCanvasTransform	src\\lib.rs	/^    pub fn cdCanvasTransform(canvas: *mut cdCanvas, matrix: *const f64);$/;"	f
+cdCanvasTransform	src\\test.rs	/^    pub fn cdCanvasTransform(canvas: *mut cdCanvas, matrix: *const f64);$/;"	f
+cdCanvasTransformMultiply	src\\lib.rs	/^    pub fn cdCanvasTransformMultiply(canvas: *mut cdCanvas, matrix: *const f64);$/;"	f
+cdCanvasTransformMultiply	src\\test.rs	/^    pub fn cdCanvasTransformMultiply(canvas: *mut cdCanvas, matrix: *const f64);$/;"	f
+cdCanvasTransformPoint	src\\lib.rs	/^    pub fn cdCanvasTransformPoint($/;"	f
+cdCanvasTransformPoint	src\\test.rs	/^    pub fn cdCanvasTransformPoint($/;"	f
+cdCanvasTransformRotate	src\\lib.rs	/^    pub fn cdCanvasTransformRotate(canvas: *mut cdCanvas, angle: f64);$/;"	f
+cdCanvasTransformRotate	src\\test.rs	/^    pub fn cdCanvasTransformRotate(canvas: *mut cdCanvas, angle: f64);$/;"	f
+cdCanvasTransformScale	src\\lib.rs	/^    pub fn cdCanvasTransformScale(canvas: *mut cdCanvas, sx: f64, sy: f64);$/;"	f
+cdCanvasTransformScale	src\\test.rs	/^    pub fn cdCanvasTransformScale(canvas: *mut cdCanvas, sx: f64, sy: f64);$/;"	f
+cdCanvasTransformTranslate	src\\lib.rs	/^    pub fn cdCanvasTransformTranslate(canvas: *mut cdCanvas, dx: f64, dy: f64);$/;"	f
+cdCanvasTransformTranslate	src\\test.rs	/^    pub fn cdCanvasTransformTranslate(canvas: *mut cdCanvas, dx: f64, dy: f64);$/;"	f
+cdCanvasUpdateYAxis	src\\lib.rs	/^    pub fn cdCanvasUpdateYAxis(canvas: *mut cdCanvas, y: *mut c_int) -> c_int;$/;"	f
+cdCanvasUpdateYAxis	src\\test.rs	/^    pub fn cdCanvasUpdateYAxis(canvas: *mut cdCanvas, y: *mut c_int) -> c_int;$/;"	f
+cdCanvasVectorCharSize	src\\lib.rs	/^    pub fn cdCanvasVectorCharSize(canvas: *mut cdCanvas, size: c_int) -> c_int;$/;"	f
+cdCanvasVectorCharSize	src\\test.rs	/^    pub fn cdCanvasVectorCharSize(canvas: *mut cdCanvas, size: c_int) -> c_int;$/;"	f
+cdCanvasVectorFont	src\\lib.rs	/^    pub fn cdCanvasVectorFont(canvas: *mut cdCanvas, filename: *const c_char) -> *mut c_char;$/;"	f
+cdCanvasVectorFont	src\\test.rs	/^    pub fn cdCanvasVectorFont(canvas: *mut cdCanvas, filename: *const c_char) -> *mut c_char;$/;"	f
+cdCanvasVectorFontSize	src\\lib.rs	/^    pub fn cdCanvasVectorFontSize(canvas: *mut cdCanvas, size_x: f64, size_y: f64);$/;"	f
+cdCanvasVectorFontSize	src\\test.rs	/^    pub fn cdCanvasVectorFontSize(canvas: *mut cdCanvas, size_x: f64, size_y: f64);$/;"	f
+cdCanvasVectorText	src\\lib.rs	/^    pub fn cdCanvasVectorText(canvas: *mut cdCanvas, x: c_int, y: c_int, s: *const c_char);$/;"	f
+cdCanvasVectorText	src\\test.rs	/^    pub fn cdCanvasVectorText(canvas: *mut cdCanvas, x: c_int, y: c_int, s: *const c_char);$/;"	f
+cdCanvasVectorTextDirection	src\\lib.rs	/^    pub fn cdCanvasVectorTextDirection($/;"	f
+cdCanvasVectorTextDirection	src\\test.rs	/^    pub fn cdCanvasVectorTextDirection($/;"	f
+cdCanvasVectorTextSize	src\\lib.rs	/^    pub fn cdCanvasVectorTextSize($/;"	f
+cdCanvasVectorTextSize	src\\test.rs	/^    pub fn cdCanvasVectorTextSize($/;"	f
+cdCanvasVectorTextTransform	src\\lib.rs	/^    pub fn cdCanvasVectorTextTransform(canvas: *mut cdCanvas, matrix: *const f64) -> *mut f64;$/;"	f
+cdCanvasVectorTextTransform	src\\test.rs	/^    pub fn cdCanvasVectorTextTransform(canvas: *mut cdCanvas, matrix: *const f64) -> *mut f64;$/;"	f
+cdCanvasVertex	src\\lib.rs	/^    pub fn cdCanvasVertex(canvas: *mut cdCanvas, x: c_int, y: c_int);$/;"	f
+cdCanvasVertex	src\\test.rs	/^    pub fn cdCanvasVertex(canvas: *mut cdCanvas, x: c_int, y: c_int);$/;"	f
+cdCanvasWriteMode	src\\lib.rs	/^    pub fn cdCanvasWriteMode(canvas: *mut cdCanvas, mode: c_int) -> c_int;$/;"	f
+cdCanvasWriteMode	src\\test.rs	/^    pub fn cdCanvasWriteMode(canvas: *mut cdCanvas, mode: c_int) -> c_int;$/;"	f
+cdContext	src\\lib.rs	/^pub enum cdContext {}$/;"	g
+cdContext	src\\test.rs	/^pub enum cdContext {}$/;"	g
+cdContextCaps	src\\lib.rs	/^    pub fn cdContextCaps(context: *mut cdContext) -> c_ulong;$/;"	f
+cdContextCaps	src\\test.rs	/^    pub fn cdContextCaps(context: *mut cdContext) -> c_ulong;$/;"	f
+cdContextIsPlus	src\\lib.rs	/^    pub fn cdContextIsPlus(context: *mut cdContext) -> c_int;$/;"	f
+cdContextIsPlus	src\\test.rs	/^    pub fn cdContextIsPlus(context: *mut cdContext) -> c_int;$/;"	f
+cdContextRegisterCallback	src\\lib.rs	/^    pub fn cdContextRegisterCallback(context: *mut cdContext, cb: c_int, func: cdCallback)$/;"	f
+cdContextRegisterCallback	src\\test.rs	/^    pub fn cdContextRegisterCallback(context: *mut cdContext, cb: c_int, func: cdCallback)$/;"	f
+cdContextType	src\\lib.rs	/^    pub fn cdContextType(context: *mut cdContext) -> c_int;$/;"	f
+cdContextType	src\\test.rs	/^    pub fn cdContextType(context: *mut cdContext) -> c_int;$/;"	f
+cdCreateBitmap	src\\lib.rs	/^    pub fn cdCreateBitmap(w: c_int, h: c_int, type_: c_int) -> *mut cdBitmap;$/;"	f
+cdCreateBitmap	src\\test.rs	/^    pub fn cdCreateBitmap(w: c_int, h: c_int, type_: c_int) -> *mut cdBitmap;$/;"	f
+cdCreateCanvas	src\\lib.rs	/^    pub fn cdCreateCanvas(context: *mut cdContext, data: *mut c_void) -> *mut cdCanvas;$/;"	f
+cdCreateCanvas	src\\test.rs	/^    pub fn cdCreateCanvas(context: *mut cdContext, data: *mut c_void) -> *mut cdCanvas;$/;"	f
+cdCreateCanvasf	src\\lib.rs	/^    pub fn cdCreateCanvasf(context: *mut cdContext, format: *const c_char, ...) -> *mut cdCanvas/;"	f
+cdCreateCanvasf	src\\test.rs	/^    pub fn cdCreateCanvasf(context: *mut cdContext, format: *const c_char, ...) -> *mut cdCanvas/;"	f
+cdDecodeAlpha	src\\lib.rs	/^    pub fn cdDecodeAlpha(color: c_long) -> c_uchar;$/;"	f
+cdDecodeAlpha	src\\test.rs	/^    pub fn cdDecodeAlpha(color: c_long) -> c_uchar;$/;"	f
+cdDecodeColor	src\\lib.rs	/^    pub fn cdDecodeColor(color: c_long, red: *mut c_uchar, green: *mut c_uchar, blue: *mut c_uch/;"	f
+cdDecodeColor	src\\test.rs	/^    pub fn cdDecodeColor(color: c_long, red: *mut c_uchar, green: *mut c_uchar, blue: *mut c_uch/;"	f
+cdDecodeColorAlpha	src\\lib.rs	/^    pub fn cdDecodeColorAlpha($/;"	f
+cdDecodeColorAlpha	src\\test.rs	/^    pub fn cdDecodeColorAlpha($/;"	f
+cdEncodeAlpha	src\\lib.rs	/^    pub fn cdEncodeAlpha(color: c_long, alpha: c_uchar) -> c_long;$/;"	f
+cdEncodeAlpha	src\\test.rs	/^    pub fn cdEncodeAlpha(color: c_long, alpha: c_uchar) -> c_long;$/;"	f
+cdEncodeColor	src\\lib.rs	/^    pub fn cdEncodeColor(red: c_uchar, green: c_uchar, blue: c_uchar) -> c_long;$/;"	f
+cdEncodeColor	src\\test.rs	/^    pub fn cdEncodeColor(red: c_uchar, green: c_uchar, blue: c_uchar) -> c_long;$/;"	f
+cdEncodeColorAlpha	src\\lib.rs	/^    pub fn cdEncodeColorAlpha($/;"	f
+cdEncodeColorAlpha	src\\test.rs	/^    pub fn cdEncodeColorAlpha($/;"	f
+cdFinishContextPlus	src\\lib.rs	/^    pub fn cdFinishContextPlus();$/;"	f
+cdFinishContextPlus	src\\test.rs	/^    pub fn cdFinishContextPlus();$/;"	f
+cdImage	src\\lib.rs	/^pub enum cdImage {}$/;"	g
+cdImage	src\\test.rs	/^pub enum cdImage {}$/;"	g
+cdInitBitmap	src\\lib.rs	/^    pub fn cdInitBitmap(w: c_int, h: c_int, type_: c_int, ...) -> *mut cdBitmap;$/;"	f
+cdInitBitmap	src\\test.rs	/^    pub fn cdInitBitmap(w: c_int, h: c_int, type_: c_int, ...) -> *mut cdBitmap;$/;"	f
+cdInitContextPlus	src\\lib.rs	/^    pub fn cdInitContextPlus();$/;"	f
+cdInitContextPlus	src\\test.rs	/^    pub fn cdInitContextPlus();$/;"	f
+cdKillBitmap	src\\lib.rs	/^    pub fn cdKillBitmap(bitmap: *mut cdBitmap);$/;"	f
+cdKillBitmap	src\\test.rs	/^    pub fn cdKillBitmap(bitmap: *mut cdBitmap);$/;"	f
+cdKillCanvas	src\\lib.rs	/^    pub fn cdKillCanvas(canvas: *mut cdCanvas);$/;"	f
+cdKillCanvas	src\\test.rs	/^    pub fn cdKillCanvas(canvas: *mut cdCanvas);$/;"	f
+cdKillImage	src\\lib.rs	/^    pub fn cdKillImage(image: *mut cdImage);$/;"	f
+cdKillImage	src\\test.rs	/^    pub fn cdKillImage(image: *mut cdImage);$/;"	f
+cdRGB2Map	src\\lib.rs	/^    pub fn cdRGB2Map($/;"	f
+cdRGB2Map	src\\test.rs	/^    pub fn cdRGB2Map($/;"	f
+cdReleaseState	src\\lib.rs	/^    pub fn cdReleaseState(state: *mut cdState);$/;"	f
+cdReleaseState	src\\test.rs	/^    pub fn cdReleaseState(state: *mut cdState);$/;"	f
+cdSizeCB	src\\lib.rs	/^pub type cdSizeCB = Option<unsafe extern "C" fn(canvas: *mut cdCanvas, w: c_int, h: c_int, w_mm:/;"	t
+cdSizeCB	src\\test.rs	/^pub type cdSizeCB = ::std::option::Option<$/;"	t
+cdState	src\\lib.rs	/^pub enum cdState {}$/;"	g
+cdState	src\\test.rs	/^pub enum cdState {}$/;"	g
+cdUseContextPlus	src\\lib.rs	/^    pub fn cdUseContextPlus(use_: c_int) -> c_int;$/;"	f
+cdUseContextPlus	src\\test.rs	/^    pub fn cdUseContextPlus(use_: c_int) -> c_int;$/;"	f
+cdVersion	src\\lib.rs	/^    pub fn cdVersion() -> *mut c_char;$/;"	f
+cdVersion	src\\test.rs	/^    pub fn cdVersion() -> *mut c_char;$/;"	f
+cdVersionDate	src\\lib.rs	/^    pub fn cdVersionDate() -> *mut c_char;$/;"	f
+cdVersionDate	src\\test.rs	/^    pub fn cdVersionDate() -> *mut c_char;$/;"	f
+cdVersionNumber	src\\lib.rs	/^    pub fn cdVersionNumber() -> c_int;$/;"	f
+cdVersionNumber	src\\test.rs	/^    pub fn cdVersionNumber() -> c_int;$/;"	f
+cdfCanvasArc	src\\lib.rs	/^    pub fn cdfCanvasArc($/;"	f
+cdfCanvasArc	src\\test.rs	/^    pub fn cdfCanvasArc($/;"	f
+cdfCanvasBox	src\\lib.rs	/^    pub fn cdfCanvasBox(canvas: *mut cdCanvas, xmin: f64, xmax: f64, ymin: f64, ymax: f64);$/;"	f
+cdfCanvasBox	src\\test.rs	/^    pub fn cdfCanvasBox(canvas: *mut cdCanvas, xmin: f64, xmax: f64, ymin: f64, ymax: f64);$/;"	f
+cdfCanvasChord	src\\lib.rs	/^    pub fn cdfCanvasChord($/;"	f
+cdfCanvasChord	src\\test.rs	/^    pub fn cdfCanvasChord($/;"	f
+cdfCanvasClipArea	src\\lib.rs	/^    pub fn cdfCanvasClipArea(canvas: *mut cdCanvas, xmin: f64, xmax: f64, ymin: f64, ymax: f64);$/;"	f
+cdfCanvasClipArea	src\\test.rs	/^    pub fn cdfCanvasClipArea(canvas: *mut cdCanvas, xmin: f64, xmax: f64, ymin: f64, ymax: f64);$/;"	f
+cdfCanvasGetClipArea	src\\lib.rs	/^    pub fn cdfCanvasGetClipArea($/;"	f
+cdfCanvasGetClipArea	src\\test.rs	/^    pub fn cdfCanvasGetClipArea($/;"	f
+cdfCanvasGetOrigin	src\\lib.rs	/^    pub fn cdfCanvasGetOrigin(canvas: *mut cdCanvas, x: *mut f64, y: *mut f64);$/;"	f
+cdfCanvasGetOrigin	src\\test.rs	/^    pub fn cdfCanvasGetOrigin(canvas: *mut cdCanvas, x: *mut f64, y: *mut f64);$/;"	f
+cdfCanvasGetTextBounds	src\\lib.rs	/^    pub fn cdfCanvasGetTextBounds($/;"	f
+cdfCanvasGetTextBounds	src\\test.rs	/^    pub fn cdfCanvasGetTextBounds($/;"	f
+cdfCanvasGetTextBox	src\\lib.rs	/^    pub fn cdfCanvasGetTextBox($/;"	f
+cdfCanvasGetTextBox	src\\test.rs	/^    pub fn cdfCanvasGetTextBox($/;"	f
+cdfCanvasGetVectorTextBounds	src\\lib.rs	/^    pub fn cdfCanvasGetVectorTextBounds($/;"	f
+cdfCanvasGetVectorTextBounds	src\\test.rs	/^    pub fn cdfCanvasGetVectorTextBounds($/;"	f
+cdfCanvasGetVectorTextBox	src\\lib.rs	/^    pub fn cdfCanvasGetVectorTextBox($/;"	f
+cdfCanvasGetVectorTextBox	src\\test.rs	/^    pub fn cdfCanvasGetVectorTextBox($/;"	f
+cdfCanvasGetVectorTextSize	src\\lib.rs	/^    pub fn cdfCanvasGetVectorTextSize($/;"	f
+cdfCanvasGetVectorTextSize	src\\test.rs	/^    pub fn cdfCanvasGetVectorTextSize($/;"	f
+cdfCanvasInvertYAxis	src\\lib.rs	/^    pub fn cdfCanvasInvertYAxis(canvas: *mut cdCanvas, y: f64) -> f64;$/;"	f
+cdfCanvasInvertYAxis	src\\test.rs	/^    pub fn cdfCanvasInvertYAxis(canvas: *mut cdCanvas, y: f64) -> f64;$/;"	f
+cdfCanvasLine	src\\lib.rs	/^    pub fn cdfCanvasLine(canvas: *mut cdCanvas, x1: f64, y1: f64, x2: f64, y2: f64);$/;"	f
+cdfCanvasLine	src\\test.rs	/^    pub fn cdfCanvasLine(canvas: *mut cdCanvas, x1: f64, y1: f64, x2: f64, y2: f64);$/;"	f
+cdfCanvasMM2Pixel	src\\lib.rs	/^    pub fn cdfCanvasMM2Pixel($/;"	f
+cdfCanvasMM2Pixel	src\\test.rs	/^    pub fn cdfCanvasMM2Pixel($/;"	f
+cdfCanvasMark	src\\lib.rs	/^    pub fn cdfCanvasMark(canvas: *mut cdCanvas, x: f64, y: f64);$/;"	f
+cdfCanvasMark	src\\test.rs	/^    pub fn cdfCanvasMark(canvas: *mut cdCanvas, x: f64, y: f64);$/;"	f
+cdfCanvasMultiLineVectorText	src\\lib.rs	/^    pub fn cdfCanvasMultiLineVectorText(canvas: *mut cdCanvas, x: f64, y: f64, s: *const c_char)/;"	f
+cdfCanvasMultiLineVectorText	src\\test.rs	/^    pub fn cdfCanvasMultiLineVectorText(canvas: *mut cdCanvas, x: f64, y: f64, s: *const c_char)/;"	f
+cdfCanvasOrigin	src\\lib.rs	/^    pub fn cdfCanvasOrigin(canvas: *mut cdCanvas, x: f64, y: f64);$/;"	f
+cdfCanvasOrigin	src\\test.rs	/^    pub fn cdfCanvasOrigin(canvas: *mut cdCanvas, x: f64, y: f64);$/;"	f
+cdfCanvasPixel	src\\lib.rs	/^    pub fn cdfCanvasPixel(canvas: *mut cdCanvas, x: f64, y: f64, color: c_long);$/;"	f
+cdfCanvasPixel	src\\test.rs	/^    pub fn cdfCanvasPixel(canvas: *mut cdCanvas, x: f64, y: f64, color: c_long);$/;"	f
+cdfCanvasPixel2MM	src\\lib.rs	/^    pub fn cdfCanvasPixel2MM($/;"	f
+cdfCanvasPixel2MM	src\\test.rs	/^    pub fn cdfCanvasPixel2MM($/;"	f
+cdfCanvasPutImageRectMap	src\\lib.rs	/^    pub fn cdfCanvasPutImageRectMap($/;"	f
+cdfCanvasPutImageRectMap	src\\test.rs	/^    pub fn cdfCanvasPutImageRectMap($/;"	f
+cdfCanvasPutImageRectRGB	src\\lib.rs	/^    pub fn cdfCanvasPutImageRectRGB($/;"	f
+cdfCanvasPutImageRectRGB	src\\test.rs	/^    pub fn cdfCanvasPutImageRectRGB($/;"	f
+cdfCanvasPutImageRectRGBA	src\\lib.rs	/^    pub fn cdfCanvasPutImageRectRGBA($/;"	f
+cdfCanvasPutImageRectRGBA	src\\test.rs	/^    pub fn cdfCanvasPutImageRectRGBA($/;"	f
+cdfCanvasRect	src\\lib.rs	/^    pub fn cdfCanvasRect(canvas: *mut cdCanvas, xmin: f64, xmax: f64, ymin: f64, ymax: f64);$/;"	f
+cdfCanvasRect	src\\test.rs	/^    pub fn cdfCanvasRect(canvas: *mut cdCanvas, xmin: f64, xmax: f64, ymin: f64, ymax: f64);$/;"	f
+cdfCanvasSector	src\\lib.rs	/^    pub fn cdfCanvasSector($/;"	f
+cdfCanvasSector	src\\test.rs	/^    pub fn cdfCanvasSector($/;"	f
+cdfCanvasText	src\\lib.rs	/^    pub fn cdfCanvasText(canvas: *mut cdCanvas, x: f64, y: f64, s: *const c_char);$/;"	f
+cdfCanvasText	src\\test.rs	/^    pub fn cdfCanvasText(canvas: *mut cdCanvas, x: f64, y: f64, s: *const c_char);$/;"	f
+cdfCanvasTransformPoint	src\\lib.rs	/^    pub fn cdfCanvasTransformPoint($/;"	f
+cdfCanvasTransformPoint	src\\test.rs	/^    pub fn cdfCanvasTransformPoint($/;"	f
+cdfCanvasUpdateYAxis	src\\lib.rs	/^    pub fn cdfCanvasUpdateYAxis(canvas: *mut cdCanvas, y: *mut f64) -> f64;$/;"	f
+cdfCanvasUpdateYAxis	src\\test.rs	/^    pub fn cdfCanvasUpdateYAxis(canvas: *mut cdCanvas, y: *mut f64) -> f64;$/;"	f
+cdfCanvasVectorCharSize	src\\lib.rs	/^    pub fn cdfCanvasVectorCharSize(canvas: *mut cdCanvas, size: f64) -> f64;$/;"	f
+cdfCanvasVectorCharSize	src\\test.rs	/^    pub fn cdfCanvasVectorCharSize(canvas: *mut cdCanvas, size: f64) -> f64;$/;"	f
+cdfCanvasVectorText	src\\lib.rs	/^    pub fn cdfCanvasVectorText(canvas: *mut cdCanvas, x: f64, y: f64, s: *const c_char);$/;"	f
+cdfCanvasVectorText	src\\test.rs	/^    pub fn cdfCanvasVectorText(canvas: *mut cdCanvas, x: f64, y: f64, s: *const c_char);$/;"	f
+cdfCanvasVectorTextDirection	src\\lib.rs	/^    pub fn cdfCanvasVectorTextDirection(canvas: *mut cdCanvas, x1: f64, y1: f64, x2: f64, y2: f6/;"	f
+cdfCanvasVectorTextDirection	src\\test.rs	/^    pub fn cdfCanvasVectorTextDirection(canvas: *mut cdCanvas, x1: f64, y1: f64, x2: f64, y2: f6/;"	f
+cdfCanvasVectorTextSize	src\\lib.rs	/^    pub fn cdfCanvasVectorTextSize($/;"	f
+cdfCanvasVectorTextSize	src\\test.rs	/^    pub fn cdfCanvasVectorTextSize($/;"	f
+cdfCanvasVertex	src\\lib.rs	/^    pub fn cdfCanvasVertex(canvas: *mut cdCanvas, x: f64, y: f64);$/;"	f
+cdfCanvasVertex	src\\test.rs	/^    pub fn cdfCanvasVertex(canvas: *mut cdCanvas, x: f64, y: f64);$/;"	f
+data	src\\lib.rs	/^    pub data: *mut c_void,$/;"	m	struct:cdBitmap
+data	src\\test.rs	/^    pub data: *mut c_void,$/;"	m	struct:cdBitmap
+h	src\\lib.rs	/^    pub h: c_int,$/;"	m	struct:cdBitmap
+h	src\\test.rs	/^    pub h: c_int,$/;"	m	struct:cdBitmap
+main	build.rs	/^fn main() {$/;"	f
+str	src\\lib.rs	/^pub const CD_COPYRIGHT: &'static str = "Copyright (C) 1994-2019 Tecgraf, PUC-Rio";$/;"	v
+str	src\\lib.rs	/^pub const CD_DESCRIPTION: &'static str = "Vector Graphics Toolkit with Device Independent Output/;"	v
+str	src\\lib.rs	/^pub const CD_NAME: &'static str = "CD - A 2D Graphics Library";$/;"	v
+str	src\\lib.rs	/^pub const CD_VERSION: &'static str = "5.12"; \/* bug fixes are reported only by IupVersion funct/;"	v
+str	src\\lib.rs	/^pub const CD_VERSION_DATE: &'static str = "2019\/01\/07"; \/* does not include bug fix releases /;"	v
+type_	src\\lib.rs	/^    pub type_: c_int,$/;"	m	struct:cdBitmap
+type_	src\\test.rs	/^    pub type_: c_int,$/;"	m	struct:cdBitmap
+w	src\\lib.rs	/^    pub w: c_int,$/;"	m	struct:cdBitmap
+w	src\\test.rs	/^    pub w: c_int,$/;"	m	struct:cdBitmap
